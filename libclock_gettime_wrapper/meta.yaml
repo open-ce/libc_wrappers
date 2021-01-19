@@ -15,8 +15,9 @@ requirements:
 
 about:
   home: open-ce
-  license: apache-2
-  summary: summary
+  license: LGPL
+  license_file: LICENSE
+  summary: wrapper for clock_gettime version compatibility
   description: |
     This is a wrapper package to map clock_gettime_GLIBC_PRIVATE to GLIBC_2.17
   doc_url: 
