@@ -16,9 +16,10 @@ requirements:
 about:
   home: open-ce
   license: apache-2
-  summary: summary
+  license_file: LICENSE
+  summary: wrapper for memcpy version compatibility
   description: |
-    This is a wrapper package to map memcpy_GLIBC_2.2.5 to GLIBC_2.17
+    This is a wrapper package to map memcpy_GLIBC_2.2.5 to GLIBC_2.14
   doc_url: 
 
 extra:
