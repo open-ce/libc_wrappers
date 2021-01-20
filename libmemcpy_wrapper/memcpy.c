@@ -1,4 +1,4 @@
-# *****************************************************************
+/*****************************************************************
 # (C) Copyright IBM Corp. 2018, 2020. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-# *****************************************************************
+# *****************************************************************/
 
 #include <string.h>
 asm (".symver old_memcpy, memcpy@GLIBC_2.2.5");       // hook old_memcpy as memcpy@2.2.5
