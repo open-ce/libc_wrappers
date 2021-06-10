@@ -6,12 +6,15 @@ source:
   - path: ./
 
 build:
-  number: 2
+  number: 3
   string: {{ PKG_BUILDNUM }}
   
 requirements:
   build:
     - {{ compiler('c') }}
+    # Use pins to control cos6/cos7 match
+    - libgcc-ng  {{ libgcc }}
+    - libstdcxx-ng  {{ libstdcxx }}
 
 about:
   home: open-ce
