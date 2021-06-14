@@ -10,22 +10,18 @@ build:
   string: {{ PKG_BUILDNUM }}
   ignore_run_exports:
     - libgcc-ng
-    - libstdcxx-ng
   
 requirements:
   build:
     - {{ compiler('c') }}
     # Use pins to control cos6/cos7 match
     - libgcc-ng  {{ libgcc }}
-    - libstdcxx-ng  {{ libstdcxx }}
   host:
     # Use pins to control cos6/cos7 match
     - libgcc-ng  {{ libgcc }}
-    - libstdcxx-ng  {{ libstdcxx }}
   run:
     # Use pins to control cos6/cos7 match
     - libgcc-ng  {{ libgcc }}
-    - libstdcxx-ng  {{ libstdcxx }}
 
 about:
   home: open-ce
