@@ -6,10 +6,8 @@ source:
   - path: ./
 
 build:
-  number: 3
+  number: 4
   string: {{ PKG_BUILDNUM }}
-  ignore_run_exports:
-    - libgcc-ng
   
 requirements:
   build:
@@ -17,9 +15,6 @@ requirements:
     # Use pins to control cos6/cos7 match
     - libgcc-ng  {{ libgcc }}
   host:
-    # Use pins to control cos6/cos7 match
-    - libgcc-ng  {{ libgcc }}
-  run:
     # Use pins to control cos6/cos7 match
     - libgcc-ng  {{ libgcc }}
 
